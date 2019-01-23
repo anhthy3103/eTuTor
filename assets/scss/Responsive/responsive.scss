@@ -1,0 +1,200 @@
+// @import '../Base/_reset.scss';
+// @import '../Helpers/_variables.scss';
+// @import '../Helpers/_mixin.scss';
+
+.wap_course{
+  .container{
+    .row{
+      .title_course{
+        h2:hover{
+          color: red;
+        }
+      } 
+    }
+  }
+}
+
+// // ---------------------------------------PHONE------------------------
+// // PHONE - HOME
+// @include res_phone{
+//   header{
+//     nav{
+//       width: 83%;
+//     }
+//   }
+//  .carousel{
+//   .full-screen{
+//     .wap-slider{
+//       .carousel-inner{
+//         width: 100%;
+//         .carousel-item{
+//           .image_wrapper {
+//             .carousel-caption{
+//               .row{
+//                 .col-md-offset-2{
+//                   h2{
+//                     font-size: 20px;
+//                   }
+//                   a{
+//                     font-size: 11px;
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+//  }
+//   .wap_intro{
+//     .wap_intro_explore{
+//       .container{
+//         .row{
+//           .intro_title{
+//             h1{
+              
+//               margin-left: 1%;
+//             }
+//             p{
+//               margin: 0px 27%;
+             
+//               text-align: center;
+//             }
+//           }
+//           .contain-category{
+//             margin-left: 4%;
+//             .category{
+//               margin-left: 20%;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+
+//   .wap_course{
+//     .container{
+//         .row{
+//           .item_course{
+//             margin: 0 5%;
+//           }
+//       }
+//     }
+//   }  
+//   .wap_info_teachers{
+//     .container{
+//       .row{
+//         .wraper-demo{
+//           .item{
+//             .member{
+//               .member-info{
+//                 .member-info-intro{
+//                   display: none;
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+//   .wap_partnership{
+//     .container{
+//       .title_partnership{
+//         h2{
+//           margin-left: -130px;
+//         }
+//         p{
+//           margin-left: -145px;
+//         }
+//       .row{
+//         .owl-item{
+//           .item{
+//             img{
+//               margin-top: 180%;
+//             }
+//           }
+//         }
+//       }
+//       }
+//     }
+//   }
+//   footer{
+//     .footer_content{
+//       .container{
+//         .row{
+//           div{
+//             .footer-single{
+//               margin-left: 5%;
+//             }
+//           }
+//           .title1{
+//             margin-left: 5%;
+//           }
+//           .contact1{
+//             margin-left: 5%
+//           }
+//           .project1{
+//             margin-left: 4%;
+//           }
+//         }
+//       }
+//     }
+//     .footer_copyright{
+//       .container{
+//         .row{
+//           .all{
+//             margin-left: 15%;
+//           }
+//         }
+//       }
+//     }
+//   }
+//   .aboutus{
+//     font-size: 28px;
+//   }
+//   #section4{
+//     .section_item4{
+//        .row{
+//          .col-md-4{
+//            .row{
+//              .col-3{
+//                padding: 0 0;
+//              }
+//            }
+//          }
+//        }
+//     }
+//   }
+
+// }
+
+// @include res_ipad{
+//  .carousel{
+//   .full-screen{
+//     .slide{
+//       .carousel-inner{
+//         width: 107%;
+//         .carousel-item{
+//           .image_wrapper {
+//             .carousel-caption{
+//               .row{
+//                 .col-md-offset-2{
+//                   h2{
+//                     font-size: 20px;
+//                   }
+//                   a{
+//                     font-size: 11px;
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+//  }
+// }
+// //----------------------------------IPAD-----------------------------

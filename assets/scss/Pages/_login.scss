@@ -1,0 +1,96 @@
+body{
+    @extend.bg;
+    background-image: url('../img/background1.jpg');
+}
+
+.sub-main-w3 {
+    width: 29%;
+    margin: 125px auto;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    padding: 50px;
+}
+.sub-main-w3 h2 {
+    
+    font-size: 1.8em;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+    font-weight: 300;
+}
+.pom-agile {
+    padding: 12px 15px;
+    border-bottom:2px solid hsl(150, 86%, 48%);
+    background: #fff;
+}
+.pom-agile:nth-child(1){
+    margin-bottom: 15px;
+}
+.pom-agile input[type="email"], .pom-agile input[type="password"] {
+    outline: none;
+    font-size: .9em;
+    border: none;
+    background: transparent;
+    width: 93%;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.right-w3l input[type="submit"] {
+    color: #fff;
+    background: hsl(150, 86%, 48%);
+    border: none;
+    padding: 12px 45px;
+    outline: none;
+    font-size: .9em;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.right-w3l input[type="submit"]:hover {
+    background: black;
+    color: black;
+	-webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	transition: 0.5s all;
+}
+span.fa {
+    float: left;
+    color: #000;
+}
+.sub-w3l {
+    padding: 20px 0 30px;
+}
+.sub-agile {
+    float: left;
+}
+
+.sub-agile input[type="checkbox"]+label {
+    position: relative;
+    
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.sub-agile input[type="checkbox"]+label span:first-child {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 1px;
+    left: 2px;
+}
+
+.sub-w3l a {
+    float: right;
+    font-size: .9em;
+   
+}

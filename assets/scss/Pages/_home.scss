@@ -1,0 +1,987 @@
+// //Begin header
+// .menu{
+//     width: 100%;
+//     position: absolute;
+//     height: 30px;
+    
+//     .nav--dark{
+//         z-index: 10;
+//         width: 100%;
+//         color: $color-white;
+//         height: 60px;
+//         .nav-item{
+//             a{
+//                 transition: none;
+//                 font-size: 1.2rem;
+               
+//              }
+//         }
+//         .menu-logo{
+//             .navbar-caption{
+//                 text-decoration:none;
+//             }
+//             a{
+//                 transition: none;
+//                 font-size: 3rem;
+//                 font-weight: 20px;
+//              }
+//         }
+//     //     #navbarSupportedContent{
+//     //         background-color: $bg-black;
+//     //         width: 100%;
+//     //         border-radius: 10px;
+//     //         text-align: center;
+//     //    }
+        
+//     }
+//     .nav-fixed-top{
+//         position:fixed;
+//         top:0;
+//         height: 70px;
+//         z-index: 10;
+//         background-color: $bg-black;
+//         color: $color-white;
+//         .nav-item{
+//             a{
+//                 transition: all .8s;
+//                 font-size: 1rem;
+               
+//              }
+//         }
+//         .menu-logo{
+           
+//            a{
+//               transition: all .8s;
+//               font-size: 1.8rem;
+//               font-weight: 8px;
+//            }
+//         }
+      
+//     }
+   
+// }
+// .nav-item{
+
+//     //login
+//     .login{
+//         color: $color-white;
+//         text-decoration: none;
+//     }
+//     .blueplay{
+//         padding: 8px 12px 8px 0;
+//         border: 1px solid $color-mediumseagreen;
+//         border-radius: 5px;
+
+//     }
+//     .blueplay::before{
+//         content: "\25b6";
+//         display: inline-block;
+//         margin: 0 8px 0 10px;
+//         position: relative;
+//         bottom: 1px;
+//         color:$color-mediumseagreen;
+//     }
+//     //register
+
+//     .register{
+//         background-color: $color-mediumseagreen;
+//         color:$color-white;
+//     }
+// }
+// //End header
+// //Begin carousel
+
+// .wap-overlay{
+//     background-color: #000;
+//     bottom: 0;
+//     left: 0;
+//     opacity: .6;
+//     position: absolute;
+//     right: 0;
+//     top: 0;
+//     z-index: 0;
+// }
+// .slider-fullscreen-image{
+//     height: 670px;
+// }
+
+// // End carousel
+// // Begin Intro
+
+// .wap_intro_explore{
+//     .border-right-none{
+//         border-right: none!important;
+//     }
+//     .border-bottom-none{
+//         border-bottom: none!important;
+//     }
+//     .intro_title{
+//         p{
+//             width: 50%;
+//             margin-left: 25%;
+//             margin-top: 40px;
+//         }
+//     }
+//     .contain-category{
+//         padding: 30px 5px;
+//         margin: 30px 5px;
+//         .category{
+//             border-right: 1px solid  #e8e8e8;
+//             border-bottom: 1px solid  #e8e8e8;
+//             text-align: center;
+//             padding: 50px;
+//             h5{
+//                 font-size: 1.2rem;
+//                 font-weight: 600;
+//             }
+//             .overlay{
+//                 background-image: url('../img/explore/hover-bg.png');
+//                 background-size: 50% 50%;
+//                 position: absolute;
+//                 top: 0;
+//                 left: 0;
+//                 right: 0;
+//                 bottom: 0;
+//                 padding: 80px 10px;
+//                 opacity: 0;
+//                 box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.13);
+//                 border-radius: 3px;
+//                 color: $color-white;
+//                 transition: background-size 0.5s,opacity 0.7s;
+//                 font-family: cursive;
+//                 &:hover{
+//                     opacity: 1;
+//                     background-size:100% 100%;
+                   
+//                }
+//                .pull-right{
+//                     float: right!important;
+//                }
+//                .pull-left{
+//                     float: left!important;
+//                }
+//          }
+            
+
+//         }
+//     }
+    
+// }
+// .wap_intro_feature{
+
+//     img{
+//         width: 90px;
+//         height: 90px;
+        
+//     }
+    
+// }
+// .btn-start{
+//     background-color:$color-mediumseagreen;
+//     color: $color-white;
+//     text-decoration: none;
+//     font-size: 1.22rem;
+//     &:hover{
+//         color: black;
+//         background-color: yellow;
+//     }
+// }
+// // End Intro
+
+// // Begin info teacher
+// // Begin team
+
+// // End team
+// .wap_info_teachers{
+//     .title_teachers {
+//         h2{
+//             font-size: 2.5rem;
+//             font-weight: bold;
+//         }
+//     }
+//     .member{
+//         position: relative;
+//         .member-info{
+//             position: relative;
+//             padding: 10px;
+//             img{
+//                 width: 100%;
+//                 border-radius: 4px;
+//             }
+//             .member-info-intro{
+//                 position: absolute;
+//                 width: 70%;
+//                 background-color:black;
+//                 color: $color-white;
+//                 text-align: right;
+//                 padding: 10px 20px;
+//                 bottom: 30px;
+//                 right: 10px;
+                
+//             }
+//         }
+//         .member-hover{
+//             position: absolute;
+//             top: 0;
+//             right: 0;
+//             bottom: 0;
+//             left: 0;
+//             margin: 0;
+//             transition: all 0.5s;
+//             opacity: 0;
+//             border: 20px solid $color-bar-2;
+//             background-color: $color-bar-3;
+//             &:hover{
+//                 opacity: 1;
+//                 .member-hover-intro{
+//                     opacity: 1;
+//                     top:40%;
+//                 }
+//                 .member-hover-link{
+//                     opacity: 1;
+//                     bottom:20%;
+//                 }
+//             }
+//             .member-hover-intro{
+//                 position: absolute;
+//                 top: 0;
+//                 width: 100%;
+//                 padding: 0 20px;
+//                 transition: all .3s .2s;
+//                 transform: translateY(-55%);
+//                 opacity: 0;
+//                 text-align: center;
+//                 line-height: 2;
+//                 h4{
+//                     text-transform: uppercase;
+//                     font-size: 12px;
+//                     letter-spacing: 2px;
+//                     margin-bottom: 30px;
+//                 }
+//                 p{
+//                     color: $color-darkgray;
+//                     font-size: 13px;
+//                 }
+//             }
+//             .member-hover-link{
+//                 position: absolute;
+//                 bottom: 0;
+//                 width: 100%;
+//                 transition: all .3s .2s;
+//                 transform: translateY(45%);
+//                 text-align: center;
+//                 opacity: 0;
+//                i{
+                
+//                     color: $color-black;
+//                     padding: 20px;
+//                }
+//             }
+//         }
+//     }
+//     .join-box{
+//         background-color:$bg-whitesmoke;
+//         padding: 50px;
+//         margin: 10px;
+//         margin-top: 10px;
+//         display: flex;
+//         .join-btn{
+//             padding: 16px 90px;
+//             a{
+//                 background-color: $bg-black;
+//                 color: $color-white;
+
+//                 &:hover{
+//                     background-color: orange;
+//                 }
+//             }
+           
+//         }
+//     }
+    
+
+// }
+// // End info teacher
+
+// .wap_step{
+   
+// }
+// // Course
+// .wap_course{
+//     background-color: $bg-color-whitesmoke;
+//     .title_course{
+//         h2{
+//             font-size: 2.5rem;
+//             font-weight: bold;
+//         }
+//     }
+//     .item_course{
+//         margin-top: 30px;
+//         .service-block{
+//             .thumb{
+//                 position: relative;
+//                 overflow: hidden;
+//                 img{
+//                     width: 100%;
+//                 }
+//                 .new_course{
+//                     background-color: red;
+//                     position: absolute;
+//                     font-size: 2.5rem;
+//                     padding: 0px 60px;
+//                     top: -10px;
+//                     left: -64px;
+//                     transform: rotate(-45deg);
+//                     span{
+//                         padding: 5px 5px;
+//                         font-size: 1.5rem;
+//                         font-family: sans-serif;
+//                     }
+//                 }
+//                 .sale_course{
+//                     background-color: green;
+//                     position: absolute;
+//                     font-size: 2.5rem;
+//                     padding: 0px 60px;
+//                     top: -10px;
+//                     left: -64px;
+//                     transform: rotate(-45deg);
+//                     span{
+//                         padding: 5px 5px;
+//                         font-size: 1.5rem;
+//                         font-family: sans-serif;
+//                     }
+  
+                  
+//                 }
+//                 .course_price{
+//                     position: absolute;
+//                     top: 176px;
+//                     span{
+//                         font-family: cursive;
+//                     }
+//                 }
+//                 .course_star{
+//                     color: yellow;
+//                     position: absolute;
+//                     top: 180px;
+//                     left: 120px;
+
+//                    ul{
+//                        li{
+//                            display:inline;
+//                        }
+//                    }
+//                 }
+//             }
+//         }
+//         .content{
+           
+//            .btn_viewmore{
+//                margin-left: 147px;
+//            }
+//         }
+//     }
+// }
+// // Course
+// // partnership
+// .wap_partnership{
+//     @extend.bg;
+//     background-image: url('../img/background6.jpg');
+//     position: relative;
+//     .wraper-demo{
+//         margin-top: 16rem;
+//     }
+//     .title_partnership{
+//         position: absolute;
+//         margin-left: 155px;
+//         margin-bottom: 40px;
+       
+//         h2{
+//             font-size: 3rem;
+//             font-weight: bold;
+//         }
+//     }
+// }
+// // partnership
+
+
+// // footer
+// #footer{
+//     font-family:sans-serif;
+//     .footer_content{
+//         background: #272727;
+//         padding-bottom: 30px;
+//         color: $color-white;
+//         img{
+//             margin-bottom: 20px;
+//             border: 1px solid #666;
+//             border-radius: 6px;
+//             padding: 1px;
+//             opacity: 0.5;
+//             transition:all 0.4s ease-in-out;
+//             width: 70%;
+//             &:hover{
+//                 opacity: 1.0;
+//                 cursor: pointer;
+//             }
+//         }
+//         .footer-single{
+//             ul{
+//                 padding: 0;
+//                 li{
+//                    display: grid;
+                   
+//                     a{
+//                         margin-bottom: 15px;
+//                         border-bottom: 1px dotted $color-gray;
+//                         i{
+//                             margin-left: 170px;
+//                         }
+//                     }
+//                 }
+//             }
+//             .btn-footer{
+//                 padding: 8px 12px 8px 10px;
+//                 border: 1px solid $color-mediumseagreen;
+//                 border-radius: 5px;
+//                 color: $color-white;
+//                 &:hover{
+//                     background-color: $color-mediumseagreen;
+//                 }
+//             }
+//         }
+//     }
+   
+//     .footer_copyright{
+//         background: #171717;
+//         padding: 10px 10px;
+//         height: 70px;
+//         line-height: 55px;
+//         ul{
+//             display: flex;
+//             margin-left: 50%;
+//             li{
+//                display: inline;
+//                 padding: 0 10px;
+//                 a{
+//                     i{
+//                         font-size: 1.5rem;
+//                         color: $color-white;
+//                         &:hover{
+//                             color:$color-mediumseagreen;
+//                         }
+//                     }
+                   
+//                 }
+//             }
+//         }
+       
+//     }
+    
+// }
+// // footer
+
+// .text-caption-p{
+//     letter-spacing: 1px;
+//     color: $color-gray;
+// }
+
+
+//Begin header
+.menu{
+    width: 100%;
+    position: absolute;
+    height: 30px;
+    
+    .nav--dark{
+        z-index: 10;
+        width: 100%;
+        color: $color-white;
+        height: 60px;
+        .nav-item{
+            a{
+                transition: none;
+                font-size: 1.2rem;
+               
+             }
+        }
+        .menu-logo{
+            .navbar-caption{
+                text-decoration:none;
+            }
+            a{
+                transition: none;
+                font-size: 3rem;
+                font-weight: 20px;
+             }
+        }
+    //     #navbarSupportedContent{
+    //         background-color: $bg-black;
+    //         width: 100%;
+    //         border-radius: 10px;
+    //         text-align: center;
+    //    }
+        
+    }
+    .nav-fixed-top{
+        position:fixed;
+        top:0;
+        height: 70px;
+        z-index: 10;
+        background-color: $bg-black;
+        color: $color-white;
+        .nav-item{
+            a{
+                transition: all .8s;
+                font-size: 1rem;
+               
+             }
+        }
+        .menu-logo{
+           
+           a{
+              transition: all .8s;
+              font-size: 1.8rem;
+              font-weight: 8px;
+           }
+        }
+      
+    }
+   
+}
+.nav-item{
+
+    //login
+    .login{
+        color: $color-white;
+        text-decoration: none;
+    }
+    .blueplay{
+        padding: 8px 12px 8px 0;
+        border: 1px solid $color-mediumseagreen;
+        border-radius: 5px;
+
+    }
+    .blueplay::before{
+        content: "\25b6";
+        display: inline-block;
+        margin: 0 8px 0 10px;
+        position: relative;
+        bottom: 1px;
+        color:$color-mediumseagreen;
+    }
+    //register
+
+    .register{
+        background-color: $color-mediumseagreen;
+        color:$color-white;
+    }
+}
+//End header
+//Begin carousel
+
+.wap-overlay{
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    opacity: .6;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+.slider-fullscreen-image{
+    height: 670px;
+}
+
+// End carousel
+// Begin Intro
+
+.wap_intro_explore{
+    .border-right-none{
+        border-right: none!important;
+    }
+    .border-bottom-none{
+        border-bottom: none!important;
+    }
+    .intro_title{
+        p{
+            width: 50%;
+            margin-left: 25%;
+            margin-top: 40px;
+        }
+    }
+    .contain-category{
+        padding: 30px 5px;
+        margin: 30px 5px;
+        .category{
+            border-right: 1px solid  #e8e8e8;
+            border-bottom: 1px solid  #e8e8e8;
+            text-align: center;
+            padding: 50px;
+            h5{
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+            .overlay{
+                background-image: url('../img/explore/hover-bg.png');
+                background-size: 50% 50%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                padding: 80px 10px;
+                opacity: 0;
+                box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.13);
+                border-radius: 3px;
+                color: $color-white;
+                transition: background-size 0.5s,opacity 0.7s;
+                font-family: cursive;
+                &:hover{
+                    opacity: 1;
+                    background-size:100% 100%;
+                   
+               }
+               .pull-right{
+                    float: right!important;
+               }
+               .pull-left{
+                    float: left!important;
+               }
+         }
+            
+
+        }
+    }
+    
+}
+.wap_intro_feature{
+
+    img{
+        width: 90px;
+        height: 90px;
+        
+    }
+    
+}
+.btn-start{
+    background-color:$color-mediumseagreen;
+    color: $color-white;
+    text-decoration: none;
+    font-size: 1.22rem;
+    &:hover{
+        color: black;
+        background-color: yellow;
+    }
+}
+// End Intro
+
+// Begin info teacher
+// Begin team
+
+// End team
+.wap_info_teachers{
+    .title_teachers {
+        h2{
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+    }
+    .member{
+        position: relative;
+        .member-info{
+            position: relative;
+            padding: 10px;
+            img{
+                width: 100%;
+                border-radius: 4px;
+            }
+            .member-info-intro{
+                position: absolute;
+                width: 70%;
+                background-color:black;
+                color: $color-white;
+                text-align: right;
+                padding: 10px 20px;
+                bottom: 30px;
+                right: 10px;
+                
+            }
+        }
+        .member-hover{
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: 0;
+            transition: all 0.5s;
+            opacity: 0;
+            border: 20px solid $color-bar-2;
+            background-color: $color-bar-3;
+            &:hover{
+                opacity: 1;
+                .member-hover-intro{
+                    opacity: 1;
+                    top:40%;
+                }
+                .member-hover-link{
+                    opacity: 1;
+                    bottom:20%;
+                }
+            }
+            .member-hover-intro{
+                position: absolute;
+                top: 0;
+                width: 100%;
+                padding: 0 20px;
+                transition: all .3s .2s;
+                transform: translateY(-55%);
+                opacity: 0;
+                text-align: center;
+                line-height: 2;
+                h4{
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    letter-spacing: 2px;
+                    margin-bottom: 30px;
+                }
+                p{
+                    color: $color-darkgray;
+                    font-size: 13px;
+                }
+            }
+            .member-hover-link{
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                transition: all .3s .2s;
+                transform: translateY(45%);
+                text-align: center;
+                opacity: 0;
+               i{
+                
+                    color: $color-black;
+                    padding: 20px;
+               }
+            }
+        }
+    }
+    .join-box{
+        background-color:$bg-whitesmoke;
+        padding: 50px;
+        margin: 10px;
+        margin-top: 10px;
+        display: flex;
+        .join-btn{
+            padding: 16px 90px;
+            a{
+                background-color: $bg-black;
+                color: $color-white;
+
+                &:hover{
+                    background-color: orange;
+                }
+            }
+           
+        }
+    }
+    
+
+}
+// End info teacher
+
+.wap_step{
+   
+}
+// Course
+.wap_course{
+    background-color: $bg-color-whitesmoke;
+    .title_course{
+        h2{
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+    }
+    .item_course{
+        margin-top: 30px;
+        .service-block{
+            .thumb{
+                position: relative;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                }
+                .new_course{
+                    background-color: red;
+                    position: absolute;
+                    font-size: 2.5rem;
+                    padding: 0px 60px;
+                    top: -10px;
+                    left: -64px;
+                    transform: rotate(-45deg);
+                    span{
+                        padding: 5px 5px;
+                        font-size: 1.5rem;
+                        font-family: sans-serif;
+                    }
+                }
+                .sale_course{
+                    background-color: green;
+                    position: absolute;
+                    font-size: 2.5rem;
+                    padding: 0px 60px;
+                    top: -10px;
+                    left: -64px;
+                    transform: rotate(-45deg);
+                    span{
+                        padding: 5px 5px;
+                        font-size: 1.5rem;
+                        font-family: sans-serif;
+                    }
+  
+                  
+                }
+                .course_price{
+                    position: absolute;
+                    top: 176px;
+                    span{
+                        font-family: cursive;
+                    }
+                }
+                .course_star{
+                    color: yellow;
+                    position: absolute;
+                    top: 180px;
+                    left: 120px;
+
+                   ul{
+                       li{
+                           display:inline;
+                       }
+                   }
+                }
+            }
+        }
+        .content{
+           
+           .btn_viewmore{
+               margin-left: 147px;
+           }
+        }
+    }
+}
+// Course
+// partnership
+.wap_partnership{
+    @extend.bg;
+    background-image: url('../img/background6.jpg');
+    position: relative;
+    .wraper-demo{
+        margin-top: 16rem;
+    }
+    .title_partnership{
+        position: absolute;
+        margin-left: 155px;
+        margin-bottom: 40px;
+       
+        h2{
+            font-size: 3rem;
+            font-weight: bold;
+        }
+    }
+}
+// partnership
+
+
+// footer
+#footer{
+    font-family:sans-serif;
+    .footer_content{
+        background: #272727;
+        padding-bottom: 30px;
+        color: $color-white;
+        img{
+            margin-bottom: 20px;
+            border: 1px solid #666;
+            border-radius: 6px;
+            padding: 1px;
+            opacity: 0.5;
+            transition:all 0.4s ease-in-out;
+            width: 70%;
+            &:hover{
+                opacity: 1.0;
+                cursor: pointer;
+            }
+        }
+        .footer-single{
+            ul{
+                padding: 0;
+                li{
+                   display: grid;
+                   
+                    a{
+                        margin-bottom: 15px;
+                        border-bottom: 1px dotted $color-gray;
+                        i{
+                            margin-left: 170px;
+                        }
+                    }
+                }
+            }
+            .btn-footer{
+                padding: 8px 12px 8px 10px;
+                border: 1px solid $color-mediumseagreen;
+                border-radius: 5px;
+                color: $color-white;
+                &:hover{
+                    background-color: $color-mediumseagreen;
+                }
+            }
+        }
+    }
+   
+    .footer_copyright{
+        background: #171717;
+        padding: 10px 10px;
+        height: 70px;
+        line-height: 55px;
+        ul{
+            display: flex;
+            margin-left: 50%;
+            li{
+               display: inline;
+                padding: 0 10px;
+                a{
+                    i{
+                        font-size: 1.5rem;
+                        color: $color-white;
+                        &:hover{
+                            color:$color-mediumseagreen;
+                        }
+                    }
+                   
+                }
+            }
+        }
+       
+    }
+    
+}
+// footer
+
+.text-caption-p{
+    letter-spacing: 1px;
+    color: $color-gray;
+}
+
+
+
+
+
+ 
+
+
+ 
