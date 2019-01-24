@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="profile.component.css">
+    <link rel="stylesheet" href="editProfile.component.css">
    
 </head>
 
@@ -91,16 +91,16 @@
           </div>            
         </div>
         <div id="proright">
-          
-       <div class="content">
-         <a href="../EditProfilePH/editProfile.component.html" style="float: right;"><img src="https://cdn3.iconfinder.com/data/icons/block/32/box_edit-512.png" width="30px" height="30px"></a>
+          <div class="content">
+            <form action="#" method="">
             <table class="table">
+
             <tr>
               <td class="tdl">
                 Họ và tên
               </td>
               <td class="tdr">
-                Trinh Pearl
+                <input class="form-control" type="text" name="hoten" placeholder="Ho va ten"value="Trinh Pearl">
               </td>
             </tr>
             <tr>
@@ -108,15 +108,15 @@
                 Username
               </td>
               <td class="tdr">
-                yeudaigia
+                <input class="form-control" type="text" name="username" placeholder="Username"value="yeudaigia">
               </td>
             </tr>
-             <tr>
+            <tr>
               <td class="tdl">
                 Email
               </td>
               <td class="tdr">
-                cogaibebong@yahoo.com.vn
+                <input class="form-control" type="text" name="email" placeholder="Email"value="cogaibebong@yahoo.com.vn">
               </td>
             </tr>
             <tr>
@@ -124,7 +124,7 @@
                 Địa chỉ
               </td>
               <td class="tdr">
-                69 Trần Duy Hưng, Cầu Giấy, Hà Nội
+                <input class="form-control" type="text" name="diachi" placeholder="Dia chi"value="69 Trần Duy Hưng, Cầu Giấy, Hà Nội">
               </td>
             </tr>
             <tr>
@@ -132,7 +132,7 @@
                 Ngày sinh
               </td>
               <td class="tdr">
-                 10/9/2002
+                  <input class="form-control" type="date" name="ngaysinh" placeholder="Ho va ten" value="10/9/2002">
               </td>
             </tr>
             <tr>
@@ -140,7 +140,7 @@
                 Kinh nghiệm
               </td>
               <td class="tdr">
-                Đã từng dạy nhiều năm trong lĩnh vực toán lí hóa
+                  <input class="form-control" type="text" name="kn" placeholder="Ho va ten" value=" Đã từng dạy nhiều năm trong lĩnh vực toán lí hóa">
               </td>
             </tr>
             <tr>
@@ -148,8 +148,8 @@
                 Chuyên
               </td>
               <td class="tdr">
-                Toán lớp 1 -> 5
-                Tiếng Việt lớp 2 -> 5
+                <input class="form-control" type="text" name="diachi" placeholder="Ho va ten"value="Toán lớp 1 -> 5
+                Tiếng Việt lớp 2 -> 5">
               </td>
             </tr>
             <tr>
@@ -157,36 +157,33 @@
                 Công việc
               </td>
               <td class="tdr">
-                Giáo viên trường THPT Võ Lai
+                <input class="form-control" type="text" name="diachi" placeholder="Ho va ten"value="Giáo viên trường THPT Võ Lai">
               </td>
             </tr>
-            <tr>
-              <td class="tdl">
-                Bằng cấp
-              </td>
-              <td class="tdr">
-                <div class="slider-wrapper">
-    <ul class="s-thumbs">
-         <li><a href="#slide-1"><img src="../../../assets/img/admin/avatar-0.jpg" alt="" width="50" height="50" /></a></li>
-         <li><a href="#slide-2"><img src="../../../assets/img/admin/avatar-1.jpg" alt=""width="50" height="50"  /></a> </li>
-         <li><a href="#slide-3"><img src="../../../assets/img/admin/avatar-2.jpg" alt=""width="50" height="50"  /></a></li>
-         <li><a href="#slide-4"><img src="../../../assets/img/admin/avatar-3.jpg" alt=""width="50" height="50"  /></a></li>
-     
-    </ul>
- 
-    <ul class="s-slides">
-    <li id="slide-1" class="slideLeft"><img src="../../../assets/img/admin/avatar-0.jpg" alt="" /></li>
-    <li id="slide-2" class="slideRight"><img src="../../../assets/img/admin/avatar-1.jpg" alt="" /></li>
-    <li id="slide-3" class="slideTop"><img src="../../../assets/img/admin/avatar-2.jpg" alt="" /></li>
-    <li id="slide-4" class="slideBottom"><img src="../../../assets/img/admin/avatar-3.jpg" alt="" /></li>
-</ul>
-</div>
-              </td>
-            </tr>
+           
           </table>
+          <div class="buttonSub" style="text-align: center;">
+              <input type="submit" name="submit" value="Lưu" class="btn btn-success" >
+              
+              <input type="submit" name="cancel" value="Hủy" class="btn btn-danger">
+           </div>
+              
+              
+            </form>
+            <br>
+            <table class="">
+               <tr>
+              <td class="tdl">
+                <span style="color: red">Bằng cấp *</span>
+              </td>
+              <td>
+              <a href="../BangCap/bc.component.html">Nhấp vào đây để chỉnh sửa bằng cấp</a>
+              </td>
+            </tr>
+            </table>
         </div>
       </div>
-      <div class="clear"></div>    
+                
     </div>
     <!-- -----------------------detail ------------------- -->
 
@@ -196,7 +193,7 @@
   <footer id="footer" class="footer-dark">
  
   </footer>
-    <script src="profile.component.js"></script>
+    <script src="editProfile.component.js"></script>
 
 
 </body>
