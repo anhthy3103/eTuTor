@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="editProfile.component.css">
+    <link rel="stylesheet" href="listCourse.component.css">
    
 </head>
 
@@ -84,77 +84,125 @@
           </div>
           <div style="margin-top: 20px;">
               <div class="menupro"><a  href="../ProfileStudent/profile.component.html" >thông tin</a></div>
-              <div class="menupro" style=" background-color: #4169E1"><a  href="editProfile.component.html">sửa thông tin</a></div>
+              <div class="menupro" ><a  href="../EditProfile/editProfile.component.html">sửa thông tin</a></div>
+            
               <div class="menupro"><a  href="../ListCourse/listCourse.component.html">danh sách buổi học</a></div>
             
           </div>            
         </div>
         <div id="proright">
           <div class="content">
-            <form action="#" method="">
-            <table class="table">
+            <div class="infoschedule">
+              Chi tiết lịch biểu
+              <br>
+              <br>
 
-            <tr>
-              <td class="tdl">
-                Họ và tên
-              </td>
-              <td class="tdr">
-                <input class="form-control" type="text" name="hoten" placeholder="Ho va ten"value="Trinh Pearl">
-              </td>
-            </tr>
-            <tr>
-              <td class="tdl">
-                Username
-              </td>
-              <td class="tdr">
-                <input class="form-control" type="text" name="username" placeholder="Username"value="yeudaigia">
-              </td>
-            </tr>
-            <tr>
-              <td class="tdl">
-                Địa chỉ
-              </td>
-              <td class="tdr">
-                <input class="form-control" type="text" name="diachi" placeholder="Dia chi"value="69 Trần Duy Hưng, Cầu Giấy, Hà Nội">
-              </td>
-            </tr>
-            <tr>
-              <td class="tdl">
-                Ngày sinh
-              </td>
-              <td class="tdr">
-                  <input class="form-control" type="date" name="ngaysinh" placeholder="Ho va ten" value="10/9/2002">
-              </td>
-            </tr>
-            <tr>
-              <td class="tdl">
-                Lớp
-              </td>
-              <td class="tdr">
-                <select name="lop" class="form-control">
-                  <option value="10">Lop 10</option>
-                  <option value="11">Lop 11</option>
-                  <option value="12">Lop 12</option>
-                </select>
-              </td>
-            </tr>
-            <tr>
-              <td class="tdl">
-                Trường
-              </td>
-              <td class="tdr">
-                <input class="form-control" type="text" name="diachi" placeholder="Ho va ten"value="THPT Vo Thi Sau">
-              </td>
-            </tr>
-          </table>
-          <div class="buttonSub" style="text-align: center;">
-              <input type="submit" name="submit" value="Lưu" class="btn btn-success" >
-              
-              <input type="submit" name="cancel" value="Hủy" class="btn btn-danger">
-           </div>
-              
-              
-            </form>
+              <input type="date" class="form-control" id="ngayhientai" >
+            </div>
+            <div class="listSchedule">
+              <table class="table" style="text-align: center;">
+                <tr>
+                  <th>
+                  Buổi
+                </th>
+                <th>
+                  Bắt đầu
+                </th>
+                <th>
+                  Kết thúc
+                </th>
+                <th>
+                  Gia sư
+                </th>
+                <th>
+                  Xem
+                </th>
+                <th>
+                  Xóa
+                </th>
+                </tr>
+                <tr>
+                  <th>
+                    Sáng
+                  </th>
+                  <td>
+                    7h30
+                  </td>
+                  <td>
+                    12h30
+                  </td>
+                  <td>
+                    Mr.Hùng
+                  </td>
+                  <td>
+                    <a href="#"><img src="https://static.thenounproject.com/png/6076-200.png" width="30" height="30"></a>
+                  </td>
+                  <td>
+                    <a href="#"><img src="https://www.iconexperience.com/_img/v_collection_png/256x256/shadow/delete.png" width="30" height="30"></a>
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Trưa
+                  </th>
+                  <td>
+                    7h30
+                  </td>
+                  <td>
+                    12h30
+                  </td>
+                  <td>
+                    Mr.Hùng
+                  </td>
+                  <td>
+                    <a href="#"><img src="https://static.thenounproject.com/png/6076-200.png" width="30" height="30"></a>
+                  </td>
+                  <td>
+                    <a href="#"><img src="https://www.iconexperience.com/_img/v_collection_png/256x256/shadow/delete.png" width="30" height="30"></a>
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Chiều
+                  </th>
+                  <td>
+                    7h30
+                  </td>
+                  <td>
+                    12h30
+                  </td>
+                  <td>
+                    Mr.Hùng
+                  </td>
+                  <td>
+                    <a href="#"><img src="https://static.thenounproject.com/png/6076-200.png" width="30" height="30"></a>
+                  </td>
+                  <td>
+                    <a href="#"><img src="https://www.iconexperience.com/_img/v_collection_png/256x256/shadow/delete.png" width="30" height="30"></a>
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Tối
+                  </th>
+                  <td>
+                    7h30
+                  </td>
+                  <td>
+                    12h30
+                  </td>
+                  <td>
+                    Mr.Hùng
+                  </td>
+                  <td>
+                    <a href="#"><img src="https://static.thenounproject.com/png/6076-200.png" width="30" height="30"></a>
+                  </td>
+                  <td>
+                    <a href="#"><img src="https://www.iconexperience.com/_img/v_collection_png/256x256/shadow/delete.png" width="30" height="30"></a>
+                  </td>
+                </tr>
+              </table>
+            </div>
         </div>
       </div>
                 
@@ -167,7 +215,7 @@
   <footer id="footer" class="footer-dark">
  
   </footer>
-    <script src="editProfile.component.js"></script>
+    <script src="listCourse.component.js"></script>
 
 
 </body>
