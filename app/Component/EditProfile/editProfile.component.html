@@ -82,22 +82,24 @@
             <div class="namepro" style="text-align: center;">Trinh Pearl (Student)</div>
           </div>
           <div style="margin-top: 20px;">
-              <div class="menupro"><a  href="profile.component.html" >thông tin</a></div>
-              <div class="menupro"><a  href="editProfile.component.html">sửa thông tin</a></div>
-              <div class="menupro"><a  href="scheduleProfile.component.html">lịch biểu</a></div>
-              <div class="menupro"><a  href="listCourse.component.html">danh sách buổi học</a></div>
+              <div class="menupro"><a  href="../ProfileStudent/profile.component.html" >thông tin</a></div>
+              <div class="menupro" style=" background-color: #4169E1"><a  href="editProfile.component.html">sửa thông tin</a></div>
+              <div class="menupro"><a  href="../ScheduleStudent/scheduleProfile.component.html">lịch biểu</a></div>
+              <div class="menupro"><a  href="../ListCourse/listCourse.component.html">danh sách buổi học</a></div>
             
           </div>            
         </div>
         <div id="proright">
           <div class="content">
+            <form action="#" method="">
             <table class="table">
+
             <tr>
               <td class="tdl">
                 Họ và tên
               </td>
               <td class="tdr">
-                Trinh Pearl
+                <input class="form-control" type="text" name="hoten" placeholder="Ho va ten"value="Trinh Pearl">
               </td>
             </tr>
             <tr>
@@ -105,7 +107,7 @@
                 Username
               </td>
               <td class="tdr">
-                yeudaigia
+                <input class="form-control" type="text" name="username" placeholder="Username"value="yeudaigia">
               </td>
             </tr>
             <tr>
@@ -113,7 +115,7 @@
                 Địa chỉ
               </td>
               <td class="tdr">
-                69 Trần Duy Hưng, Cầu Giấy, Hà Nội
+                <input class="form-control" type="text" name="diachi" placeholder="Dia chi"value="69 Trần Duy Hưng, Cầu Giấy, Hà Nội">
               </td>
             </tr>
             <tr>
@@ -121,7 +123,7 @@
                 Ngày sinh
               </td>
               <td class="tdr">
-                 10/9/2002
+                  <input class="form-control" type="date" name="ngaysinh" placeholder="Ho va ten" value="10/9/2002">
               </td>
             </tr>
             <tr>
@@ -129,7 +131,11 @@
                 Lớp
               </td>
               <td class="tdr">
-                11
+                <select name="lop" class="form-control">
+                  <option value="10">Lop 10</option>
+                  <option value="11">Lop 11</option>
+                  <option value="12">Lop 12</option>
+                </select>
               </td>
             </tr>
             <tr>
@@ -137,10 +143,18 @@
                 Trường
               </td>
               <td class="tdr">
-                THPT Võ Thị Sáu
+                <input class="form-control" type="text" name="diachi" placeholder="Ho va ten"value="THPT Vo Thi Sau">
               </td>
             </tr>
           </table>
+          <div class="buttonSub" style="text-align: center;">
+              <input type="submit" name="submit" value="Lưu" class="btn btn-success" >
+              
+              <input type="submit" name="cancel" value="Hủy" class="btn btn-danger">
+           </div>
+              
+              
+            </form>
         </div>
       </div>
                 
