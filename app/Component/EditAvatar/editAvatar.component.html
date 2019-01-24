@@ -3,12 +3,12 @@
 
 <head>
 
-    <title>ETUTOR - SEARCH</title>
+    <title>ETUTOR - EDIT INFORMATION</title>
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="profile.componentt.css">
+    <link rel="stylesheet" href="editAvatar.component.css">
    
 </head>
 
@@ -40,30 +40,26 @@
                 <ul class="navbar-nav nav-dropdown nav-right ml-auto">
                     <li class="nav-item  active  p-2">
                         <a class="nav-link link text-white " href="./home.html">
-                            Home
+                            Trang chủ
                         </a>
                     </li>
                     <li class="nav-item  p-2">
                         <a class="nav-link link text-white " href="aboutus.html">
-                            About Us
+                            Giới thiệu
                         </a>
                     </li>
                     <li class="nav-item dropdown  p-2">
                         <a class="nav-link link  text-white  " href="courses.html">
-                            Courses
+                            Gia sư
                         </a>
                        
                     </li>
                     <li class="nav-item dropdown  align-items-center p-2">
                         <a class="nav-link link text-white " href="./blog.html">
-                            Blog
+                            Liên hệ
                         </a>
                     </li>
-                    <li class="nav-item p-2">
-                        <a class="nav-link link text-white " href="contact.html">
-                            Contact
-                        </a>
-                    </li>
+                    
                     <li class="nav-item p-2 mt-2">
                         <a href="./login.html" class="blueplay login ">Login</a>
                     </li>
@@ -83,69 +79,33 @@
         <div id="proleft">
           <div>
             <img class="avatar" src="../../../assets/img/admin/avatar-0.jpg">
-            <a href="../EditAvatar/editAvatar.component.html"><img src="https://cdn3.iconfinder.com/data/icons/block/32/box_edit-512.png" width="30px" height="30px"></a>
+             <a href="../EditAvatar/editAvatar.component.html"><img src="https://cdn3.iconfinder.com/data/icons/block/32/box_edit-512.png" width="30px" height="30px"></a>
             <div class="namepro" style="text-align: center;">Trinh Pearl (Student)</div>
           </div>
           <div style="margin-top: 20px;">
-              <div class="menupro" style=" background-color: #4169E1"><a  href="profile.component.html" >thông tin</a></div>
-              <div class="menupro"><a  href="../EditProfile/editProfile.component.html">sửa thông tin</a></div>
-              <div class="menupro"><a  href="../ScheduleStudent/schedule.component.html">lịch biểu</a></div>
+              <div class="menupro"><a  href="../ProfileStudent/profile.component.html" >thông tin</a></div>
+              <div class="menupro" ><a  href="../EditProfile/editProfile.component.html">sửa thông tin</a></div>
+              <div class="menupro"><a  href="../ScheduleStudent/scheduleProfile.component.html">lịch biểu</a></div>
               <div class="menupro"><a  href="../ListCourse/listCourse.component.html">danh sách buổi học</a></div>
             
           </div>            
         </div>
         <div id="proright">
           <div class="content">
-            <table class="table">
-            <tr>
-              <td class="tdl">
-                Họ và tên
-              </td>
-              <td class="tdr">
-                Trinh Pearl
-              </td>
-            </tr>
-            <tr>
-              <td class="tdl">
-                Username
-              </td>
-              <td class="tdr">
-                yeudaigia
-              </td>
-            </tr>
-            <tr>
-              <td class="tdl">
-                Địa chỉ
-              </td>
-              <td class="tdr">
-                69 Trần Duy Hưng, Cầu Giấy, Hà Nội
-              </td>
-            </tr>
-            <tr>
-              <td class="tdl">
-                Ngày sinh
-              </td>
-              <td class="tdr">
-                 10/9/2002
-              </td>
-            </tr>
-            <tr>
-              <td class="tdl">
-                Lớp
-              </td>
-              <td class="tdr">
-                11
-              </td>
-            </tr>
-            <tr>
-              <td class="tdl">
-                Trường
-              </td>
-              <td class="tdr">
-                THPT Võ Thị Sáu
-              </td>
-            </tr>
-          </table>
+            <form action="#" method="">
+           
+                <img class="avatar" src="../../../assets/img/admin/avatar-0.jpg">
+                <br>
+              <input type="file" name="avatar" value="Chon avatar" class="form-control" >
+               <br>
+          <div class="buttonSub" style="text-align: center;">
+              <input type="submit" name="submit" value="Lưu" class="btn btn-success" >
+              
+              <input type="submit" name="cancel" value="Hủy" class="btn btn-danger">
+           </div>
+              
+              
+            </form>
         </div>
       </div>
                 
@@ -158,7 +118,7 @@
   <footer id="footer" class="footer-dark">
  
   </footer>
-    <script src="profile.component.js"></script>
+    <script src="editAvatar.component.js"></script>
 
 
 </body>
